@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CV – Guglielmo Lami</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      max-width: 640px;
+      margin: 80px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+      color: #222;
+    }
+    a { color: #0066cc; }
+    nav {
+      display: flex;
+      gap: 24px;
+      padding-bottom: 14px;
+      margin-bottom: 40px;
+      border-bottom: 1px solid #ddd;
+    }
+    nav a {
+      text-decoration: none;
+      color: #444;
+      font-weight: 500;
+    }
+    nav a:hover { color: #0066cc; }
+    nav a.active {
+      color: #0066cc;
+      border-bottom: 2px solid #0066cc;
+      padding-bottom: 12px;
+    }
+    h2 { margin-top: 40px; border-bottom: 1px solid #ddd; padding-bottom: 6px; }
+    .entry {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 18px;
+    }
+    .date {
+      flex: 0 0 120px;
+      color: #666;
+      font-size: 0.95em;
+    }
+    .role { font-weight: 600; }
+    .place { color: #444; }
+    @media (max-width: 500px) {
+      .entry { flex-direction: column; gap: 2px; }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="cv.html" class="active">CV</a>
+  </nav>
+
+  <h1>Curriculum Vitae</h1>
+  <p><a href="cv.pdf" target="_blank">Download full CV (PDF)</a></p>
+
+  <h2>Positions</h2>
+
+  <div class="entry">
+    <div class="date">01/2026 – present</div>
+    <div>
+      <div class="role">Postdoctoral Researcher</div>
+      <div class="place">Young Physics Teams, Collège de France (Paris)</div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="date">01/2024 – present</div>
+    <div>
+      <div class="role">Postdoctoral Researcher</div>
+      <div class="place">LPTM, CY Cergy Paris University (Paris)</div>
+    </div>
+  </div>
+
+  <h2>Education</h2>
+
+  <div class="entry">
+    <div class="date">2019 – 2023</div>
+    <div>
+      <div class="role">PhD in Theory and Numerical Simulation of Condensed Matter</div>
+      <div class="place">SISSA (Trieste)</div>
+      <ul class="details">
+        <li>Thesis: "Pushing the boundaries of Matrix Product States in quantum many-body physics and computing"</li>
+        <li>Advisor: Prof. Mario Collura</li>
+    </ul>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="date">2017 – 2019</div>
+    <div>
+      <div class="role">MSc in Theoretical Physics</div>
+      <div class="place">University of Pisa (Pisa)</div>
+      <ul class="details">
+        <li>Thesis: "Localization of kinks in discrete classical models"</li>
+        <li>Supervisor: Prof. Alessandro Silva</li>
+        <li>Final grade: 110/110 cum Laude</li>
+    </ul>
+    </div>
+  </div>
+</body>
+</html>
+
